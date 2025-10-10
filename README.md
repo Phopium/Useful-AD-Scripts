@@ -1,2 +1,3 @@
 # Useful-AD-Scripts
-My collection of PowerShell scripts for interacting with Active Directory in day-to-day use.
+
+A small collection of PowerShell scripts that help make day-to-day interaction with Active Directory faster and more reliable.
