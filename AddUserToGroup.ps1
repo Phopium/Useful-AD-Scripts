@@ -7,4 +7,4 @@ $userList = foreach ($number in $numberRange) {
     $genericName + $number + $domainName
 }
 
-Add-ADGroupMember -Identity $adGroupName -Members $userList -WhatIf # "-WhatIf" to test
+Add-ADGroupMember -Identity $adGroupName -Members $userList -WhatIf # if not remoted into DC, include "-Server" param
